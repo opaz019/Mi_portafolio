@@ -1,0 +1,244 @@
+/*
+===============
+GENERAL
+===============
+*/
+
+body {
+	font-family: 'Chivo', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Asul', sans-serif;
+}
+
+h2 {
+	font-size: 3em;
+}
+
+p {
+	font-size: 1.1em;	
+}
+
+/*
+============
+NAVBAR
+============
+*/
+
+.nav-link:hover,
+.navbar-nav .active {
+	background-color: #745d94;
+}
+
+/*
+============
+HEADER
+============
+*/
+
+header {
+	background-image: url("../img/header1 (5).jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: left;
+	padding-bottom: 10rem;
+	
+}
+
+header h1 {
+	font-size: 4em;
+	display: inline-block;
+	border-bottom: solid 2px white;
+}
+
+header p {
+	font-size: 2.3em;
+}
+
+header h1, header p {
+	text-shadow: 2px 2px 5px black;
+}
+
+header div {
+	margin-top: 6rem;
+	padding-bottom: 10rem;
+}
+
+.btn-purple {
+	background-color: #745d94;
+	border-color: #745d94;
+	color: white;
+}
+
+.btn-purple:hover {
+	background-color: #4B3C5E;
+	border-color: #4B3C5E;
+	color: white;
+}
+
+/*
+============
+ABOUT Y EXPERIENCIA
+============
+*/
+
+#about h2, #experiencia h2 {
+	color: #391867;
+}
+
+#about p {
+	line-height: 40px;
+}
+
+#experiencia i {
+	color: #391867;
+}
+
+.btn-outline-purple {
+	border-color: #4B3C5E;
+}
+
+.btn-outline-purple:hover {
+	background-color: #745d94;
+	border-color: #745d94;
+	color: white;
+}
+
+/*
+============
+WORK
+============
+*/
+
+.bg-purple {
+	background-color: #35224B;
+}
+
+#trabajos .btn {
+	width: 30%;
+}
+
+.carousel-indicators {
+	top: 460px;
+}
+
+.carousel-control-prev:link, 
+.carousel-control-next:link {
+	background-color: #391867;
+	width: 2rem;
+	opacity: 0.3;
+}
+
+.carousel-control-prev:visited, 
+.carousel-control-next:visited {
+	opacity: 0.3;
+}
+
+.carousel-control-prev:hover, 
+.carousel-control-next:hover {
+	opacity: 0.5;
+}
+
+
+.carousel-control-prev:active, 
+.carousel-control-next:active {
+	opacity: 0.3;
+}
+
+/*
+============
+CONTACTO
+============
+*/
+
+#contacto h2 {
+	color: #391867;
+}
+
+/*
+============
+FOOTER
+============
+*/
+
+footer i {
+	margin-left: 20px;
+}
+
+.footer-icons a i {
+	color: white;
+}
+
+.footer-icons a i:hover {
+	color: #a991c9;
+}
+
+/*
+============
+MEDIA QUERIES
+============
+*/
+
+/* Large devices or smaller */
+@media (max-width: 1199.98px) {
+	header div .pt-5{
+		padding-top: 8rem!important;
+	}
+
+	header div {
+		padding-bottom: 0rem!important;
+	}
+}
+
+/* Medium devices and smaller */
+@media (max-width: 991.98px) {
+	#trabajos .btn {
+		width: 50%;
+	}
+}
+
+/* Small devices and smaller */
+@media (max-width: 767.98px) {
+	.comm-manager {
+		margin-top: 3rem;
+	}
+
+	#trabajos .btn {
+		width: 30%;
+	}
+
+	.carousel-indicators {
+		top: 1590px;
+	}
+
+	footer .footer-icons,
+	footer .footer-logo {
+		text-align: center!important;
+	}
+
+	footer img {
+		margin-bottom: 2rem;
+	}
+}
+
+@media (max-width: 575.98px) {
+	header div .pt-5{
+		padding-top: 4.5rem!important;
+	}
+
+	header div {
+		padding-bottom: 0rem!important;
+	}
+
+	header h1 {
+		font-size: 3.3em;
+	}
+
+	header p {
+		font-size: 1.3em;
+	}
+}
+
+
+
